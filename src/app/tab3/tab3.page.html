@@ -1,0 +1,73 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Proximo a você</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">CONFIGURAÇÕES</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+
+    <ion-chip color="tertiary">
+      Escola
+      <ion-icon name="school-outline"></ion-icon>
+    </ion-chip>
+
+    <ion-chip color="warning">
+      Academia
+      <ion-icon name="barbell-outline"></ion-icon>
+    </ion-chip>
+    <ion-chip color="secondary">
+      Correios
+      <ion-icon name="terminal-outline"></ion-icon>
+    </ion-chip>
+
+
+
+        <ion-item-divider color="success">
+          <ion-label color="light">Não vistos</ion-label>
+        </ion-item-divider>
+
+
+        <ion-item>
+          <ion-icon slot="start" color="primary" name="call-outline"></ion-icon>
+          <ion-label>Ligações</ion-label>
+          <ion-badge color="primary" slot="end">3</ion-badge>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon slot="start" color="warning" name="chatbubble-ellipses-outline"></ion-icon>
+          <ion-label>Mensagens</ion-label>
+          <ion-badge color="warning" slot="end">36</ion-badge>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon slot="start" color="tertiary" name="mail-outline"></ion-icon>
+          <ion-label>Emails</ion-label>
+          <ion-badge color="dark" slot="end">23</ion-badge>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon slot="start" color="primary" name="person-add-outline"></ion-icon>
+          <ion-label>Novas Sugestões</ion-label>
+          <ion-badge color="success" slot="end">16</ion-badge>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon slot="start" color="danger" name="heart-outline"></ion-icon>
+          <ion-label>Curtidas</ion-label>
+          <ion-badge color="danger" slot="end">43</ion-badge>
+        </ion-item>
+
+
+</ion-content>
+
+

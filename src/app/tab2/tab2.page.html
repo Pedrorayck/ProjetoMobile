@@ -1,0 +1,131 @@
+tab 2
+
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+    </ion-buttons>
+    <ion-title>CONFIGURAÇÕES</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">CONFIGURAÇÕES</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list>
+    <ion-item-group>
+
+      <ion-card>
+        <ion-item routerLink="../tab4">
+          <ion-icon color="success" name="wifi" slot="start"></ion-icon>
+          <ion-label>WIFI</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon color="success" name="bluetooth-outline" slot="start"></ion-icon>
+          <ion-label>Bluetooth</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon color="success" name="call-outline" slot="start"></ion-icon>
+          <ion-label>Rede Movel</ion-label>
+        </ion-item>
+      </ion-card>
+
+    </ion-item-group>
+  </ion-list>
+
+  <ion-list>
+    <ion-item-group>
+
+      <ion-card>
+        <ion-item>
+          <ion-icon color="success" name="time-outline" slot="start"></ion-icon>
+          <ion-label>Hora</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon color="success" name="calendar-outline" slot="start"></ion-icon>
+          <ion-label>Data</ion-label>
+        </ion-item>
+      </ion-card>
+
+    </ion-item-group>
+  </ion-list>
+
+  <ion-list>
+    <ion-item-group>
+
+      <ion-card>
+        <ion-item>
+          <ion-icon color="success" name="settings-outline" slot="start"></ion-icon>
+          <ion-label>Geral</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon color="success" name="sunny-outline" slot="start"></ion-icon>
+          <ion-label>Brilho</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon color="success" name="people-circle-outline" slot="start"></ion-icon>
+          <ion-label>Contas</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon color="success" name="battery-full-outline" slot="start"></ion-icon>
+          <ion-label>Bateria</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon color="success" name="location-outline" slot="start"></ion-icon>
+          <ion-label>Localização</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon color="success" name="volume-high-outline" slot="start"></ion-icon>
+          <ion-label>Volume</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon color="success" name="shield-outline" slot="start"></ion-icon>
+          <ion-label>Segurança</ion-label>
+        </ion-item>
+
+      </ion-card>
+
+    </ion-item-group>
+  </ion-list>
+
+  <ion-list>
+    <ion-item-group>
+
+      <ion-card>
+        <ion-item>
+          <ion-icon color="danger" name="information-circle-outline" slot="start"></ion-icon>
+        <ion-label>Sobre o dispositivo</ion-label>
+        </ion-item>
+      </ion-card>
+
+    </ion-item-group>
+  </ion-list>
+
+
+
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="success"> <ion-icon name="camera-outline"></ion-icon> </ion-fab-button>
+
+    </ion-fab>
+
+    <ion-fab vertical="start" horizontal="end" slot="fixed">
+      <ion-fab-button color="success"> <ion-icon name="add-outline"></ion-icon> </ion-fab-button>
+
+      <ion-fab-list side="start">
+        <ion-fab-button color="dark"><ion-icon name="eyedrop-outline"></ion-icon></ion-fab-button>
+        <ion-fab-button color="dark"><ion-icon name="barbell-outline"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+
+      <ion-fab-list side="bottom">
+        <ion-fab-button color="dark"><ion-icon name="call-outline"></ion-icon></ion-fab-button>
+        <ion-fab-button color="danger"><ion-icon name="cloudy-outline"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+
+    </ion-fab>
+
+</ion-content>
